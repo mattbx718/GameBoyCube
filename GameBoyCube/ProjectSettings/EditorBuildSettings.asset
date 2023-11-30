@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GAMEOVER.unity
     guid: 4d88ac4c0ffbec848bdd717e692a478a
+  - enabled: 1
+    path: Assets/Scenes/SIKE.unity
+    guid: 04faff58810a3a141839ea8b7599bb8a
   m_configObjects: {}

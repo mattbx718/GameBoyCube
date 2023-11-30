@@ -62,7 +62,13 @@ public class Player : MonoBehaviour
         else if (other.tag == "Death")   // So the player dies when hitting the walls
         {
             Debug.Log("Hit");
-            SceneManager.LoadScene("GAMEOVER"); //change to end scene
+            SceneManager.LoadScene("SIKE"); //change to end scene
+
+        }
+        else if (other.tag == "Win")   // So the player dies when hitting the walls
+        {
+            Debug.Log("Hit");
+            SceneManager.LoadScene("Win"); //change to end scene
 
         }
 
