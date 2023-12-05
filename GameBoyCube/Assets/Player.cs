@@ -40,8 +40,13 @@ public class Player : MonoBehaviour
             rb.AddForce(new Vector2(rb.velocity.x, jump));     //jump
             isJumping = true;                                   //set jumping to true
         }
-    }
+        if (Input.GetKeyDown(KeyCode.W) && !isJumping)          //when the Unity Jump keybind is presses and if the object is not already jumping
+        {
+            rb.AddForce(new Vector2(rb.velocity.x, jump));     //jump
+            isJumping = true;
 
+        }
+    }
     // Called when a Collision is detected
     void OnCollisionEnter2D(Collision2D other)
     {

@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SIKE.unity
     guid: 04faff58810a3a141839ea8b7599bb8a
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: bfe5e184c8abf9c4a808e6b1e74bc3da
   m_configObjects: {}
